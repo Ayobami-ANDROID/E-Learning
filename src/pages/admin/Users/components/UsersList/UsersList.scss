@@ -1,0 +1,21 @@
+.users-list {
+    margin-top: 1rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    &__avatar {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+    }
+
+    &__content {
+        margin-left: 1rem;
+    }
+
+    &__name {
+        font-size: 1.8rem;
+    }
+}

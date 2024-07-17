@@ -1,0 +1,44 @@
+@import "../../../assets/sass/base";
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+
+    &__notify {
+        margin-right: 2rem;
+    }
+
+    &__page-title {
+        @include h-style("h3");
+        font-weight: 500;
+        margin-left: 1rem;
+    }
+}
+
+.btn-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .ant-btn-icon {
+        color: #fff !important;
+    }
+    &:hover {
+        color: #4096ff !important;
+        border-color: #4096ff !important;
+        background-color: #fff !important;
+        .ant-btn-icon {
+            color: #4096ff !important;
+        }
+    }
+}
+.search-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    .ant-btn-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,19 @@
+.category-info {
+
+    display: flex;
+    align-items: center;
+    &__avatar {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+    }
+
+    &__name {
+        margin-left: 1rem;
+    }
+    
+}
+
+.txt-desc{
+    color: rgba(0, 0, 0, 0.45);
+}

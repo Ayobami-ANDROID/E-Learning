@@ -1,0 +1,128 @@
+@import "../../../assets/sass/base";
+.path-player {
+    &__wrap {
+    }
+
+    &__row {
+    }
+    .col-left {
+        height: 100vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    &__menu {
+        color: $light-bg-color;
+
+        &-header {
+            padding: 0rem 2rem;
+            background-color: $brand-primary-color;
+            &-title {
+                @include h-style("h3");
+                font-weight: 500;
+                margin: 2rem 0rem;
+            }
+
+            &-nav {
+                display: flex;
+                padding: 1rem 0rem;
+                &-back {
+                    display: block;
+                    color: $light-text-color;
+                    display: flex;
+                    align-items: center;
+                    &-icon {
+                        margin-right: 1rem;
+                    }
+                }
+
+                &-collapse {
+                    display: block;
+                    margin-left: auto;
+
+                    &-btn {
+                    }
+                    margin-right: 1rem;
+                }
+            }
+        }
+
+        &-progress {
+            .ant-progress-text {
+                color: #fff;
+                font-weight: normal;
+            }
+        }
+
+        &-tabs {
+            background-color: $brand-primary-color;
+
+            .ant-tabs {
+            }
+
+            .ant-tabs-nav {
+                padding: 0rem 2rem;
+            }
+
+            .ant-tabs-tab-btn {
+                color: #fff;
+            }
+        }
+
+        &-content {
+            margin-left: -2rem;
+            padding: 3rem 0rem 0rem 4rem;
+            background-color: #fff;
+        }
+    }
+
+    &__player {
+        &-nav {
+            display: flex;
+            padding: 1rem 0rem;
+            background-color: $light-bg-color;
+            &-item {
+                width: 50%;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+
+        &-screen {
+            // height: 1000px;
+        }
+    }
+
+    @media (max-width: map-get($breakpoint, desktop)) {
+        &__row {
+        }
+    }
+
+    @media (max-width: map-get($breakpoint, tablet-lg)) {
+        &__row {
+            flex-direction: column-reverse;
+        }
+
+        &__menu-content {
+            padding: 2rem;
+            margin: 0;
+        }
+    }
+
+    @media (max-width: map-get($breakpoint, tablet)) {
+        &__row {
+            flex-direction: column-reverse;
+        }
+
+        &__menu-content {
+            padding: 2rem;
+            margin: 0;
+        }
+    }
+
+    @media (max-width: map-get($breakpoint, mobile)) {
+        &__menu-content {
+            padding: 2rem;
+            margin: 0;
+        }
+    }
+}

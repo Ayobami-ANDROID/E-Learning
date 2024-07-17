@@ -1,0 +1,24 @@
+@mixin list-reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin max($value) {
+    @media screen and (max-width: $value) {
+        @content;
+    }
+}
+
+@mixin min($value) {
+    @media screen and (min-width: $value) {
+        @content;
+    }
+}
+@mixin hover {
+    @media (hover: hover) {
+        &:hover {
+            @content;
+        }
+    }
+}

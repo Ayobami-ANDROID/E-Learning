@@ -1,0 +1,36 @@
+.sub-header {
+    background-color: #fff;
+    margin-top: 1rem;
+   &__{
+    display: flex;
+    align-items: center;
+   }
+}
+
+.ant-space-item {
+    display: flex;
+}
+
+
+.course-content {
+    &__wrap {
+
+    }
+
+    &__show-result {
+      
+    }
+
+    &__show-text {
+        background-color: #fff;
+        display: inline-block;
+        padding: 1rem 2rem;
+        margin-top: 1rem;
+        border-radius: 2rem;
+    }
+
+    &__list {
+    }
+
+   
+}

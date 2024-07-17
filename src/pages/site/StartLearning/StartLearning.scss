@@ -1,0 +1,161 @@
+@import "../../../assets/sass/base";
+.start-learning {
+
+    margin-top: $header-height;
+    background: $light-bg-color;
+    &__wrap {
+        padding: 8rem 0;
+    }
+
+    &__header {
+        position: relative;
+        margin-bottom: 4rem;
+        &-row{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1.6rem;
+            @media(max-width: 768px){
+                flex-direction: column;
+                align-items: flex-start;
+             }
+        }
+        .learning__col--right, .learning__col--left{
+            @media(max-width: 768px){
+                width: 100%;
+             }
+        }
+        &-welcome {
+            display: flex;
+            &-icon {
+
+            }
+
+            &-img {
+                width: 12rem;
+                height: 12rem;
+                border-radius: 50%;
+                @media(max-width: 800px){
+                   width: 8rem;
+                   height: 8rem;
+                }
+            }
+
+            &-info {
+                padding-left: 2rem;
+            }
+
+            &-text {
+                margin-bottom: 1rem;
+            }
+
+            &-name {
+                margin-bottom: 1rem;
+            }
+
+            &-view-profile {
+
+            }
+        }
+
+        &-summary {
+            display: flex;
+            width: 100%;
+            border-radius: 4px;
+            box-shadow: 0 10px 50px rgba(0,0,0,.1);
+            padding: 3.5rem;
+            @media(max-width: 800px){
+                padding: 2.4rem;
+             }
+             @media (max-width: 768px) {
+                display: flex;
+            }
+            &-row {
+                width: 100%;
+                display: flex;
+                height: 100%;
+                align-items: stretch;
+                .col{
+                    height: auto;
+                }
+            }
+
+            &-item {
+                padding: 2rem 2.5rem;
+                text-align: center;
+                height: 100%;
+                @media(max-width: 800px){
+                    padding: 1.6rem;
+                 }
+                
+                &--courses {
+                    background-color: $dark-bg-color;
+                    color: $light-text-color;
+                }
+
+                &--messages {
+
+                }
+
+                &--hours {
+                    background-color: $brand-secondary-color;
+                }
+
+                &-icon {    
+                    span {
+                        font-size: 3rem;
+                        margin-bottom: 1.5rem;
+                    }
+                }
+
+                &-number {
+                    font-size: 2.2rem;
+                    margin-bottom: 1.5rem;
+                }
+
+                &-text {
+                    font-size: 1.4rem;
+                    font-weight: 400;
+                }
+            }
+        }
+
+    }
+
+    &__courses {
+        background-color: #fff;
+
+        &-heading {
+            @include h-style("h2");
+            margin-bottom: 4rem;
+        }
+    }
+
+    @media (max-width: map-get($breakpoint, tablet)) {
+
+        padding: 0rem 2rem;
+
+    }
+
+    @media (max-width: map-get($breakpoint, mobile-sm)) {
+        padding: 0rem 1rem;
+
+        &__header {
+
+            &-welcome {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    @media (max-width: map-get($breakpoint, mobile)) {
+        padding: 0rem 1rem;
+
+        &__header {
+
+            &-welcome {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+@import '../../../assets/sass/base';
+
+.anticon.anticon-github{
+    font-size: 2rem;
+}
+.auth {
+    &__title {
+        text-align: center;
+        @include h-style("h3");
+        margin-top: 2rem;
+
+        &-heading {
+            line-height: 1.4;
+        }
+    }
+
+    &__socials {
+        text-align: center;
+        margin: 2rem 0rem;
+        &-btn {
+            border-radius: 50%;
+            height: 4rem;
+            width: 4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            padding: 0.8rem;
+            img{
+                width: 100%;
+                
+            }
+        }
+
+        &-icon {
+            font-size: 2rem;
+        }
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.github-login-button {
+    /* Add your CSS properties here */
+    // margin-top: -.6rem;
+  }
