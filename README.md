@@ -1,11 +1,9 @@
 # FRONTEND: E LEARNING PLATFORM
-<!-- [![YouTube Video](https://img.youtube.com/vi/gyMwXuJrbJQ/default.jpg)](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
 
-[![YouTube Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg){width=480px height=360px}](https://www.youtube.com/watch?v=VIDEO_ID) -->
 <img src="./src/assets/images/e-learning-website.png" alt="Screenshot" width="100%" >
 
 <p style="text-align: center; font-style: italic">This Image of Homepage of E Learnning Platform</p>
-<!-- <iframe width="480" height="360" src="https://www.youtube.com/embed/gyMwXuJrbJQ" frameborder="0" allowfullscreen></iframe> -->
+
 
 
 ## 1. Project Description Overview: 
@@ -14,8 +12,7 @@ serves as a marketplace for selling online courses.
 + Our platform
 offers a seamless experience for users to browse and purchase courses, study the course materials, and track their progress. 
 + The administrator has the ability to manage orders and analyze student performance
-+ Take a look to visit the website: 
-https://e-learning-platform.pro
+
 
 ## 2. Main Module features
 
@@ -97,7 +94,7 @@ https://e-learning-platform.pro
 + Email: test_page@gmail.com
 + Password: 123456
 
-![Test Page](./src/assets/images/e-learning-website-client-login.png "Test Page")
+
 
 
 #### 2.2.2.1 Client (Add more features when logined)
@@ -125,9 +122,9 @@ https://e-learning-platform.pro
 
 #### How to login ?
 #### Step 1: Go to Website
-https://e-learning-platform.pro/author-login
+https://baselinkse-learing-ayobamiandroids-projects.vercel.app/author-login
 #### Step 2: Login with Admin author (contact me to get the account)
-![Author Login](./src/assets/images/e-learning-website-admin-login.png "Author Login")
+
 #### Step 3: Enjoy with admin dashboard and other features.
 
 <img src="./src/assets/images/e-learing-dashboard.png" alt="e-learing-admin-dashboard">
@@ -172,13 +169,10 @@ https://e-learning-platform.pro/author-login
 + Framework/libraries: React Typescript, Redux, RTK Query, Ant Design
 + Build tool: Vitejs
 
-## 4. Related Links:
-+ Backend Repository Link: [backend repository link here](https://github.com/sangtrandev00/backend-course-prj)
-+ Author's Person Website: https://trannhatsang.com
 
 
 ## 5. License
-+ Author: Tran Nhat Sang
-+ Website: https://trannhatsang.com
-+ Email: nhatsang0101@gmail.com
++ Author: Ayobami Ajetunmobi
++ Website: https://aycodes.netlify.app/
++ Email: ajetunmobiayobami19@gmail.com
 + Contact me everytime!
